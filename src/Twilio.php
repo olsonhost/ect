@@ -1,6 +1,6 @@
 <?php 
 
-namespace Olsonhost\Twilio;
+namespace Olsonhost\Ect;
 
 // Perform common telco functions using Twilio
 
@@ -19,7 +19,7 @@ class Twilio
 
 	protected $ect; // This is the calling class containing ect event handlers
 
-	public function __construct($ect == false)
+	public function __construct($ect = false)
 	{
 
 	// Get configuration info
