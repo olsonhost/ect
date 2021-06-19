@@ -1,0 +1,17 @@
+{
+    "name": "olsonhost/ect",
+    "description": "Evo Communication Technology\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erik Olson",
+            "email": "erik@olson.host"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"olsonhost\\ect\\": "src/"}
+    }
+    "require": {}
+}
