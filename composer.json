@@ -9,9 +9,9 @@
             "email": "erik@olson.host"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
-        "psr-4": {"olsonhost\\ect\\": "src/"}
+        "psr-4": {"Olsonhost\\Ect\\": "src/"}
     },
     "require": {}
 }
