@@ -35,5 +35,12 @@ class Init
 
 	}
 
+	public function sendSMS($to, $from, $message) {
+		$this->tel->sendSMS($to, $from, $message);
+	}
+
+	public function dial($number, $callback) {
+		$this->tel->dial($number, $callback);
+	}
 
 }
