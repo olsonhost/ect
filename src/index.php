@@ -1,6 +1,6 @@
 <?php 
 
-namespace olsonhost\ect;
+namespace Olsonhost\Ect;
 
 class Index
 {
