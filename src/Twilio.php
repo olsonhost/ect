@@ -23,8 +23,8 @@ class Twilio
 	{
 
 	// Get configuration info
-	$this->token = '8574d87add64414a342f2ab159011e45';
-	$this->sid = 'AC03e2898812b9a0aaeed9c7d70824f326';
+	$this->token = 'xxxxxxxxxxxxxxxxxxxxxxx';
+	$this->sid = 'xxxxxxxxxxxxxxxxxxxx';
 	$this->ect = $ect;
 
 	}
