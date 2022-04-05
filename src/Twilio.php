@@ -8,12 +8,12 @@ namespace Olsonhost\Ect;
 // Dial a number
 // Process webhook
 
-
 // These are low level functions that could be processed with Twilio, a dialogic card, or some other service or software
 
 class Twilio
 {
 
+    public $author;
 
 	protected $token, $sid;
 
@@ -26,6 +26,7 @@ class Twilio
 	$this->token = 'xxxxxxxxxxxxxxxxxxxxxxx';
 	$this->sid = 'xxxxxxxxxxxxxxxxxxxx';
 	$this->ect = $ect;
+	$this->author = 'Erik Olson';
 
 	}
 
