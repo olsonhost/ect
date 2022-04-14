@@ -24,7 +24,7 @@ class Init
 
 		// $tel->webhook(false) should callback this
 
-		echo '*** TEST! ***';
+		echo '*** TEST!!! ***';
 	}
 
 	public function whtest() {
